@@ -1,0 +1,64 @@
+
+head{
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: gold;
+  animation: bounceIn 5s infinite;
+  animation-direction: alternate;
+  }
+  @keyframes bounceIn {
+   0% {
+      opacity: 0;
+      transform: scale(.3);
+   }
+   50% {
+      opacity: 1;
+      transform: scale(1.05);
+   }
+   70% {
+      transform: scale(.9);
+   }
+   100% {
+      transform: scale(1);
+   }
+}
+  h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+  color: gold;
+  }
+  p{
+    font-family: 'Roboto Condensed', sans-serif;
+  color: yellow;
+  }
+ul{
+  color: yellow;
+  font-size: 25px;
+}
+a {
+  color: orange;
+}
+footer {
+  font-family: 'Roboto Condensed', sans-serif;
+color: gold;
+}
+body {
+  background-image: url("https://www.publicdomainpictures.net/pictures/210000/velka/outer-space-1485956786EG0.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+td{
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 75px;
+}
+.center{
+display: flex;
+justify-content: center;
+text-align: center;
+}

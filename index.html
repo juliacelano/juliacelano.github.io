@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Star Wars Treasure Hunt </title>
+    <link rel="shortcut icon" href="https://vignette.wikia.nocookie.net/clubpenguin/images/3/3b/BP_BHq8CIAMr3Iy.png/revision/latest?cb=20140416102417">
+    <meta charset="utf-8">
+    <title> Star Wars Treasure Hunt </title>
+    <link rel="stylesheet" href="treasurehunt.css"
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="top" class="center">Star Wars Treasure Hunt
+    </h1>
+<div class="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Lightsaber_blue_%28with_shimmering_aura%29.png" width="200" alt="Anakin's Lightsaber">
+
+</div>
+    <h2 class="center">"Your eyes can deceive you. Dont't trust them." -Obi-Wan Kenobi</h2>
+<p class="center">These are the rules to help guide you on your quest.</p>
+
+</div>
+
+<ul>
+  <li>Click each symbol until you are able to locate Anakin's Lightsaber</li>
+  <li>If you run into the Imperial Skull, you die.</li>
+  <li>You have 5 tries, use them wisely!</li>
+  <button type="button" onclick="location.reload()">Restart Game</button>
+</ul>
+
+
+<table class="center" id="table" border="1">
+  <tr>
+    <td onclick="treasure(0)" id="0">?</td>
+    <td onclick="treasure(1)"id="1">?</td>
+    <td onclick="treasure(2)"id="2">?</td>
+  </tr>
+  <tr>
+      <td onclick="treasure(3)"id="3">?</td>
+      <td onclick="treasure(4)"id="4">?</td>
+      <td onclick="treasure(5)"id="5">?</td>
+  </tr>
+  <tr>
+      <td onclick="treasure(6)"id="6">?</td>
+      <td onclick="treasure(7)"id="7">?</td>
+      <td onclick="treasure(8)"id="8">?</td>
+    </tr>
+</table>
+<p class="center">counter: <span id="counter">5</span> </p>
+<a class="center" href="https://www.starwars.com/" target="_blank">Star Wars Official Website </a>
+<div id="header"></div>
+<footer class="center">Nathan, Julia <a href="#top">Back to Top</a></footer>
+<div id="footer"></div>
+<script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+</html>
